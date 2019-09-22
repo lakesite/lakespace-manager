@@ -1,0 +1,16 @@
+{
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Lakespace Manager",
+    "default_popup": "popup/index.html"
+  },
+  "description": "Save your tabs as a lakespace workspace.",
+  "homepage_url": "https://github.com/lakesite/lakespace-manager",
+  "manifest_version": 2,
+  "name": "lakespace web extension",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "version": "1.0"
+}

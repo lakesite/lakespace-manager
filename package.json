@@ -1,0 +1,51 @@
+{
+  "name": "lakespace-manager",
+  "productName": "Lakespace Manager",
+  "identifier": "net.lakesite.lakespace-manager",
+  "description": "Lakespace Manager",
+  "version": "0.0.1",
+  "author": "Andrew Duncan",
+  "copyright": "Copyright 2019 Lakesite.Net, LLC",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build-dev": "webpack --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.dist.js"
+  },
+  "dependencies": {
+    "downloadjs": "^1.4.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "zip-webpack-plugin": "^3.0.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakesite/lakespace-manager.git"
+  }
+}

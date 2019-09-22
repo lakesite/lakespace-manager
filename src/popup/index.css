@@ -1,0 +1,31 @@
+html, body {
+  width: 750px;
+}
+
+a {
+  margin: 10px;
+  display: inline-block;
+}
+
+.lakespace-draft-header {
+  padding-left: 10px;
+}
+
+.lakespace-draft-header a {
+  display: block;
+}
+
+.lakespace-draft {
+  resize: none;
+  width: 100%;
+  height: 10em;
+}
+
+.panel {
+  margin: 0px;
+  width: 100%;
+}
+
+.panel-section-header {
+  border-bottom: 1px solid #000;
+}
